@@ -8,7 +8,7 @@ options = Options()
 options.add_argument("start-maximized")
 options.add_experimental_option("detach", True)
 
-chrome_path = "C:\\Users\\USER\\Desktop\\my_python\\chromedriver.exe"
+chrome_path = "E:\my_python\chromedriver.exe"
 game_url = "http://orteil.dashnet.org/experiments/cookie/"
 
 driver = webdriver.Chrome(service_log_path=chrome_path, options=options)
